@@ -23,4 +23,4 @@ export default new Router({
       component: () => import(/* webpackChunkName: "about" */ './modules/About.vue')
     }
   ]
-})
+});
